@@ -1,1 +1,14 @@
-
+{
+  "name": "klickos-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Klickos Tap to Earn Telegram Bot",
+  "main": "api/bot.js",
+  "scripts": {
+    "start": "node api/bot.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
