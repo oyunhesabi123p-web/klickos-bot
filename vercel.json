@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/game",
-      "dest": "/public/game.html"
+      "dest": "/game.html"
     },
     {
       "src": "/api/(.*)",
