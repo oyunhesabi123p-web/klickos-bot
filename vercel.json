@@ -1,1 +1,13 @@
-
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/game",
+      "dest": "/public/game.html"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    }
+  ]
+}
